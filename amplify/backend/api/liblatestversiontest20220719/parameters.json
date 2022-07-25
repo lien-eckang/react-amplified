@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "liblatestversiontest20220719",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}

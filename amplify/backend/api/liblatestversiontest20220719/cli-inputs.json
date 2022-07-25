@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "liblatestversiontest20220719",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/tmp/amplify-a2088292-6fdd-4ffc-99ea-0da64a10debd/amplify/backend/api/liblatestversiontest20220719/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
